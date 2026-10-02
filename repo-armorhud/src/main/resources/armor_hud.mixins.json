@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "ru.berdinskiybear.armorhud.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "InventoryMenuAccessor",
+    "ArmorHudBossBarMixin",
+    "ArmorHudHudMixin",
+    "ArmorHudMinecraftMixin",
+    "ArmorHudSubtitleMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
